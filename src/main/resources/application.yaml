@@ -1,0 +1,35 @@
+server:
+  port: 9090
+#ignite:
+#  clusterActive: true
+
+#  igniteInstanceName: properties-instance-name1
+#  communicationSpi:
+#    localPort: 8888
+#  dataStorageConfiguration:
+#    defaultDataRegionConfiguration:
+#      initialSize: 10485760 #10MB
+#
+#    dataRegionConfigurations:
+#      - name: my-dataregion
+#        initialSize: 104857600 #100MB
+#        walMod: FSYNC
+#        PersistenceEnabled: true
+#        #StoragePath: "/opt/storage"
+#  cacheConfiguration:
+#    - name: accounts
+#      queryEntities:
+#        - tableName: accounts
+#          keyFieldName: ID
+#          keyType: java.lang.Long
+#          valueType: java.lang.Object
+#          fields:
+#            ID: java.lang.Long
+#            amount: java.lang.Double
+#            updateDate: java.util.Date
+#    - name: my-cache2
+#
+#ignite-client:
+#  addresses: 127.0.0.1:10800 # this is mandatory property!
+#  timeout: 10000
+#  tcpNoDelay: false
